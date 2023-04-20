@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: yellow;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: mediumseagreen;
+    transition: 2s;
+}
+.one:hover{
+    width: 400px;
+}
+.two:hover{
+    width: 300px;
+    height: 400px;
+}
+.three:hover{
+    transition-timing-function: linear;
+    width: 400px;
+}
+.four:hover{
+    transition-timing-function: ease;
+    width: 400px;
+}
+.five:hover{
+    transition-timing-function: ease-in;
+    width: 400px;
+}
+.six:hover{
+    transition-timing-function: ease-out;
+    width: 400px;
+}
+.seven:hover{
+    transition-timing-function: ease-in-out;
+    width: 400px;
+}
